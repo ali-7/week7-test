@@ -16,8 +16,17 @@
     </nav>
     <form class="form" action="/add-city" method="post">
       <input type="text" name="name" value="" placeholder="name" />
-      <input type="text" name="country" value="" placeholder="country" />
+      <input type="text" name="city" value="" placeholder="city" />
       <button type="submit" name="button">+ Add city</button>
     </form>
+    <div class="table-container">
+      <table id="cities-table">
+        <tr>
+          <th>Name</th>
+          <th>City</th>
+        </tr>
+      </table>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
