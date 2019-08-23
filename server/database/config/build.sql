@@ -1,0 +1,10 @@
+BEGIN;
+CREATE TABLE citys (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(30) NOT NULL,
+    city VARCHAR(30) NOT NULL,
+);
+
+
+
+COMMIT;
