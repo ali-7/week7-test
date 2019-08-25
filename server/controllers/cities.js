@@ -2,6 +2,5 @@ const getCities = require('../database/queries/getCities');
 
 exports.showCities = (req, res) => {
   getCities()
-    .then((result) => res.send(result.rows))
-    .catch((err) => console.log(err));
+    .then((result) => res.send(result.rows));
 };
