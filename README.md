@@ -3,6 +3,7 @@
 This project has a server, front-end and a database, the server and front-end have been set up for you.
 
 ### Tasks:
+
 - Create a database.
 - Build a database connection.
 - Write a schema for the database that has a 'cities' table with columns 'name' and 'city'
@@ -10,4 +11,6 @@ This project has a server, front-end and a database, the server and front-end ha
 - Write an `addCity` query, when the user submits the form, a new city should be inserted into the database, if the user refresh the page the new city that the user added should be displayed.
 - Deploy your project on Heroku
 
-*Add the heroku website link on your README*
+_Add the heroku website link on your README_
+
+[heroku link](https://week7-test-mohammed96.herokuapp.com/)
