@@ -17,5 +17,4 @@ Insert INTO cities (name,city) VALUES
 ('bet lahem','palestine'),
 ('bet hanon','palestine');
 
-
 COMMIT;
