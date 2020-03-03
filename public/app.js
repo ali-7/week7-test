@@ -13,3 +13,6 @@ fetch("/cities")
       table.appendChild(row);
     });
   });
+
+
+  

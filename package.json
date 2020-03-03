@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
-    "dev": "nodemon server/index.js"
+    "start": "NODE_ENV=production node server/index.js",
+    "dev": "NODE_ENV=development nodemon server/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/ali-7/week7-test#readme",
   "dependencies": {
-    "env2": "^2.2.2",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "pg": "^7.12.1"
   },
